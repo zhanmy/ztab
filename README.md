@@ -1,10 +1,10 @@
 # ztab
-简单的令人发指的tab页插件，送给面逼荣
+<div>简单的令人发指的tab页插件，送给面逼荣</div>
 
-css代码 可自行定义active的样式
-.z-tab-head.active{
-  background: #aaa;
-}
+<div>css代码 可自行定义active的样式</div>
+<div>.z-tab-head.active{</div>
+  <div>background: #aaa;</div>
+<div>}</div>
 
 html代码 给好id或者class  注意 z-tab-head 和 z-tab-content 两个class不能少  可自行添加别的class
 <div>&lt;div id=&quot;headbox&quot;&gt;</div>
@@ -20,11 +20,11 @@ html代码 给好id或者class  注意 z-tab-head 和 z-tab-content 两个class�
   <div>&lt;div class=&quot;z-tab-content&quot;&gt;dddddddddddddd&lt;/div&gt;</div>
 <div>&lt;/div&gt;</div>
 
-js代码
-// 实例化插件
-var tabBox = new Ztab({
-  head: '#headbox',	// 头部id或者class （id是#  class是. 不用多说了吧）
-  content: '#conbox', // 内容id或者class 
-  // active: 1,	// 默认选中的标签索引, 不传的话默认值是0
-});
-// tabBox.tab(0);	// 切换tab的方法 如果需要可使用 不需要可不写
+<div>js代码</div>
+<div>// 实例化插件</div>
+<div>var tabBox = new Ztab({</div>
+  <div>head: '#headbox',	// 头部id或者class （id是#  class是. 不用多说了吧）</div>
+  <div>content: '#conbox', // 内容id或者class </div>
+  <div>// active: 1,	// 默认选中的标签索引, 不传的话默认值是0</div>
+<div>});</div>
+<div>// tabBox.tab(0);	// 切换tab的方法 如果需要可使用 不需要可不写</div>
