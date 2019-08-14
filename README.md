@@ -3,7 +3,7 @@
 <p></p><p></p>
 <div>css代码 可自行定义active的样式</div>
 <div>.z-tab-head.active{</div>
-  <div style="padding-left:50px;">background: #aaa;</div>
+  <div>&nbsp;&nbsp;&nbsp;&nbsp; background: #aaa;</div>
 <div>}</div>
 <p></p><p></p>
 <div>html代码 给好id或者class  注意 z-tab-head 和 z-tab-content 两个class不能少  可自行添加别的class</div>
