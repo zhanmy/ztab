@@ -1,12 +1,12 @@
 # ztab
 <div>简单的令人发指的tab页插件，送给面逼荣</div>
-
+<p></p><p></p>
 <div>css代码 可自行定义active的样式</div>
 <div>.z-tab-head.active{</div>
-  <div>background: #aaa;</div>
+  <div style="padding-left:50px;">background: #aaa;</div>
 <div>}</div>
-
-html代码 给好id或者class  注意 z-tab-head 和 z-tab-content 两个class不能少  可自行添加别的class
+<p></p><p></p>
+<div>html代码 给好id或者class  注意 z-tab-head 和 z-tab-content 两个class不能少  可自行添加别的class</div>
 <div>&lt;div id=&quot;headbox&quot;&gt;</div>
   <div>&lt;div class=&quot;z-tab-head&quot;&gt;aa&lt;/div&gt;</div>
   <div>&lt;div class=&quot;z-tab-head&quot;&gt;bb&lt;/div&gt;</div>
@@ -19,7 +19,7 @@ html代码 给好id或者class  注意 z-tab-head 和 z-tab-content 两个class�
   <div>&lt;div class=&quot;z-tab-content&quot;&gt;cccccccccccccccccc&lt;/div&gt;</div>
   <div>&lt;div class=&quot;z-tab-content&quot;&gt;dddddddddddddd&lt;/div&gt;</div>
 <div>&lt;/div&gt;</div>
-
+<p></p><p></p>
 <div>js代码</div>
 <div>// 实例化插件</div>
 <div>var tabBox = new Ztab({</div>
