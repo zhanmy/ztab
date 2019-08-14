@@ -8,23 +8,23 @@
 <p></p><p></p>
 <div>html代码 给好id或者class  注意 z-tab-head 和 z-tab-content 两个class不能少  可自行添加别的class</div>
 <div>&lt;div id=&quot;headbox&quot;&gt;</div>
-  <div>&lt;div class=&quot;z-tab-head&quot;&gt;aa&lt;/div&gt;</div>
-  <div>&lt;div class=&quot;z-tab-head&quot;&gt;bb&lt;/div&gt;</div>
-  <div>&lt;div class=&quot;z-tab-head&quot;&gt;ss&lt;/div&gt;</div>
-  <div>&lt;div class=&quot;z-tab-head&quot;&gt;dd&lt;/div&gt;</div>
+  <div>&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;z-tab-head&quot;&gt;aa&lt;/div&gt;</div>
+  <div>&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;z-tab-head&quot;&gt;bb&lt;/div&gt;</div>
+  <div>&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;z-tab-head&quot;&gt;ss&lt;/div&gt;</div>
+  <div>&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;z-tab-head&quot;&gt;dd&lt;/div&gt;</div>
 <div>&lt;/div&gt;</div>
 <div>&lt;div id=&quot;conbox&quot;&gt;</div>
-  <div>&lt;div class=&quot;z-tab-content&quot;&gt;aaaaaaaaaaaaaaaaaa&lt;/div&gt;</div>
-  <div>&lt;div class=&quot;z-tab-content&quot;&gt;bbbbbbbbbbbbbbbbbbb&lt;/div&gt;</div>
-  <div>&lt;div class=&quot;z-tab-content&quot;&gt;cccccccccccccccccc&lt;/div&gt;</div>
-  <div>&lt;div class=&quot;z-tab-content&quot;&gt;dddddddddddddd&lt;/div&gt;</div>
+  <div>&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;z-tab-content&quot;&gt;aaaaaaaaaaaaaaaaaa&lt;/div&gt;</div>
+  <div>&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;z-tab-content&quot;&gt;bbbbbbbbbbbbbbbbbbb&lt;/div&gt;</div>
+  <div>&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;z-tab-content&quot;&gt;cccccccccccccccccc&lt;/div&gt;</div>
+  <div>&nbsp;&nbsp;&nbsp;&nbsp; &lt;div class=&quot;z-tab-content&quot;&gt;dddddddddddddd&lt;/div&gt;</div>
 <div>&lt;/div&gt;</div>
 <p></p><p></p>
 <div>js代码</div>
 <div>// 实例化插件</div>
 <div>var tabBox = new Ztab({</div>
-  <div>head: '#headbox',	// 头部id或者class （id是#  class是. 不用多说了吧）</div>
-  <div>content: '#conbox', // 内容id或者class </div>
-  <div>// active: 1,	// 默认选中的标签索引, 不传的话默认值是0</div>
+  <div>&nbsp;&nbsp;&nbsp;&nbsp; head: '#headbox',	// 头部id或者class （id是#  class是. 不用多说了吧）</div>
+  <div>&nbsp;&nbsp;&nbsp;&nbsp; content: '#conbox', // 内容id或者class </div>
+  <div>&nbsp;&nbsp;&nbsp;&nbsp; // active: 1,	// 默认选中的标签索引, 不传的话默认值是0</div>
 <div>});</div>
 <div>// tabBox.tab(0);	// 切换tab的方法 如果需要可使用 不需要可不写</div>
