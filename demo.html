@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.z-tab-head{
+				padding: 5px;
+				margin-bottom: 10px;
+				background: #eee;
+			}
+			.z-tab-head.active{
+				background: #aaa;
+			}
+		</style>
+		<script src="ztab.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="headbox">
+			<div class="z-tab-head">aa</div>
+			<div class="z-tab-head">bb</div>
+			<div class="z-tab-head">ss</div>
+			<div class="z-tab-head">dd</div>
+		</div>
+		<div id="conbox">
+			<div class="z-tab-content">aaaaaaaaaaaaaaaaaa</div>
+			<div class="z-tab-content">bbbbbbbbbbbbbbbbbbb</div>
+			<div class="z-tab-content">cccccccccccccccccc</div>
+			<div class="z-tab-content">dddddddddddddd</div>
+		</div>
+		
+		<script type="text/javascript">
+			// 实例化插件
+			var tabBox = new Ztab({
+				head: '#headbox',	// 头部id或者class 
+				content: '#conbox', // 内容id或者class 
+				active: 1,	// 默认选中的标签索引, 不传的话默认值是0
+			});
+			tabBox.tab(0);	// 切换tab的方法 如果需要可使用
+		</script>
+	</body>
+</html>
