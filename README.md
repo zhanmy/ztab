@@ -7,18 +7,18 @@ css代码 可自行定义active的样式
 }
 
 html代码 给好id或者class  注意 z-tab-head 和 z-tab-content 两个class不能少  可自行添加别的class
-<div id="headbox">
-  <div class="z-tab-head">aa</div>
-  <div class="z-tab-head">bb</div>
-  <div class="z-tab-head">ss</div>
-  <div class="z-tab-head">dd</div>
-</div>
-<div id="conbox">
-  <div class="z-tab-content">aaaaaaaaaaaaaaaaaa</div>
-  <div class="z-tab-content">bbbbbbbbbbbbbbbbbbb</div>
-  <div class="z-tab-content">cccccccccccccccccc</div>
-  <div class="z-tab-content">dddddddddddddd</div>
-</div>
+&lt;div id=&quot;headbox&quot;&gt;
+  &lt;div class=&quot;z-tab-head&quot;&gt;aa&lt;/div&gt;
+  &lt;div class=&quot;z-tab-head&quot;&gt;bb&lt;/div&gt;
+  &lt;div class=&quot;z-tab-head&quot;&gt;ss&lt;/div&gt;
+  &lt;div class=&quot;z-tab-head&quot;&gt;dd&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;conbox&quot;&gt;
+  &lt;div class=&quot;z-tab-content&quot;&gt;aaaaaaaaaaaaaaaaaa&lt;/div&gt;
+  &lt;div class=&quot;z-tab-content&quot;&gt;bbbbbbbbbbbbbbbbbbb&lt;/div&gt;
+  &lt;div class=&quot;z-tab-content&quot;&gt;cccccccccccccccccc&lt;/div&gt;
+  &lt;div class=&quot;z-tab-content&quot;&gt;dddddddddddddd&lt;/div&gt;
+&lt;/div&gt;
 
 js代码
 // 实例化插件
